@@ -1,0 +1,40 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url('img/top-view-tennis-clay-court-with-grid-and-shadow-grass-cover-field-vector-illustration-textured-realistic-tennis-court-illustration-the-exact-proportions_499433-513.avif') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 7px solid rgb(0, 97, 5);
+}
+
+.paddle {
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+#player {
+    left: 10px;
+}
+
+#computer {
+    right: 10px;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.score p{
+    color:#FFFFFF;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
